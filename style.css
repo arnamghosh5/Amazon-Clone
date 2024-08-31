@@ -94,6 +94,9 @@ span{
 }
 .panel-ops p{
     display: inline;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: aqua;
 }
 .box{
     border: 2px solid black;
@@ -116,6 +119,7 @@ span{
 .box-content{
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 25px;
 }
 
 /*Footer*/
@@ -126,13 +130,15 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
 }
 .divclass2 {
     background-color: #222f3d;
-    color: white;
+    color: rgb(57, 24, 206);
     height: 500px;
     display: flex; /*Used To display column by column*/
     justify-content: space-evenly;
+    font-weight: bold;
 }
 ul{
     margin-top: 10px;
@@ -145,14 +151,35 @@ ul a{
 .divclass3{
     background-color: #222f3d;
     color: white;
-    border: 0.5px solid white;
+    border: 0.5px solid rgb(167, 43, 43);
     height: 70px;
     display: flex;
     justify-content: center;
+}
+.pages a{
+    letter-spacing: 3px;
 }
 .logo {
     background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100 px;
+}
+.divclass2 #f{
+    font-weight: bold;
+    line-height: 1.6;
+    color: aqua;
+    font-size: 20px;
+}
+.divclass1 a{
+    color: rgb(4, 247, 25);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+#search{
+    font-size: 25px;
+    color: brown;
+    margin: 5px;
+    padding: 5px;
 }
